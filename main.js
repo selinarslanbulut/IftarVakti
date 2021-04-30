@@ -154,15 +154,7 @@ function ChangeLocation(){
    $('#locationModal').modal('hide');
 
 }
-
-
-
-
-
-
-
 //Her saniye çalıştırma
-
 setInterval(function(){
     GetTime();
 },1000);                      //saniyede 1 kez çalıştır ekrana yazdır.
